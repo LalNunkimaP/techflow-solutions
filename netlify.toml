@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/"
+  to = "/homepage"
+  status = 301
