@@ -44,10 +44,10 @@ export default function FeaturedResource({ resource, onDownload }: FeaturedResou
             </span>
           </div>
 
-          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
             {resource.title}
           </h2>
-          <p className="text-white/90 text-lg mb-6">
+          <p className="text-primary text-lg mb-6">
             {resource.description}
           </p>
 
