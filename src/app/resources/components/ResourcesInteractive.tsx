@@ -37,6 +37,7 @@ export default function ResourcesInteractive() {
   const [sortBy, setSortBy] = useState('latest');
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsHydrated(true);
     const saved = localStorage.getItem('bookmarkedResources');
     if (saved) {
