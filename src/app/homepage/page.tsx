@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import Header from '@/components/common/Header';
-import HeroSection from './homepage/components/HeroSection';
-import ServicesPreview from './homepage/components/ServicesPreview';
-import SuccessMetrics from './homepage/components/SuccessMetrics';
-import TestimonialCarousel from './homepage/components/TestimonialCarousel';
-import CTASection from './homepage/components/CTASection';
-import TrustBadges from './homepage/components/TrustBadges';
-import Footer from './homepage/components/Footer';
+import HeroSection from './components/HeroSection';
+import ServicesPreview from './components/ServicesPreview';
+import SuccessMetrics from './components/SuccessMetrics';
+import TestimonialCarousel from './components/TestimonialCarousel';
+import CTASection from './components/CTASection';
+import TrustBadges from './components/TrustBadges';
+import Footer from './components/Footer';
 
 export const metadata: Metadata = {
   title: 'Homepage - TechFlow Solutions',
